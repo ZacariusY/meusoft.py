@@ -1,5 +1,5 @@
 def saudacao(nome):
-    return f"Olá, {nome}! Bem-vindo ao software."
+    return f"OLÁ, {nome.upper()}! BEM-VINDO AO SOFTWARE."
 
 if __name__ == "__main__":
     nome = input("Digite seu nome: ")
