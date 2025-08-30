@@ -3,4 +3,6 @@ def saudacao(nome):
 
 if __name__ == "__main__":
     nome = input("Digite seu nome: ")
+    if not nome.strip():
+        nome = "Usuário"
     print(saudacao(nome))
